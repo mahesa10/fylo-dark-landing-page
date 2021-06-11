@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+nav {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    font-family: Raleway, sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: 100%;
+    padding-left: 20px;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav, #hero {
+    background-color: hsl(217, 28%, 15%);
+}
+
+#hero {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-image: url(./images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#hero h1,
+#hero p {
+    margin: 20px auto;
+}
+
+#hero h1 {
+    width: 50%;
+    font-size: 2.75em;
+}
+
+#hero p {
+    width: 450px;
+}
+
+.headings {
+    font-family: Raleway, sans-serif;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.9)
+}
+
+button {
+    font-family: inherit;
+    font-size: 0.9em;
+    color: white;
+    background-color:  hsl(198, 60%, 50%);
+    border-radius: 30px;
+    width: 230px;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#features {
+    margin: 0 0 150px 0;
+}
+
+.feature {
+    text-align: center;
+    width: 420px;
+    padding: 20px;
+    height: auto;
+    margin: 20px 40px;
+}
+
+.feature > * {
+    margin: 10px 0;
+}
+
+.feature-icon {
+    height: 70px;
+}
+
+#stay-productive {
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#stay-productive > * {
+    margin: 0 30px;
+}
+
+#stay-productive h2 {
+    font-size: 2.75em;
+    line-height: 1.25;
+}
+
+#productive-text > * {
+    margin: 20px 0;
+}
+
+#fylo-works {
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 3px;
+}
+
+#testimonial {
+    margin: 150px 0;
+    background-image: url(./images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: 8% 0%;
+}
+
+.testi-box {
+    background-color: hsl(219, 30%, 18%);
+    width: 350px;
+    padding: 20px 30px;
+    margin: 0 20px;
+    margin-top: 30px;
+}
+
+.testi-box > * {
+    margin: 20px 0;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 30px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.user-name {
+    color: white;
+}
+
+#email-box {
+    width: 60%;
+    background-color: hsl(217, 28%, 15%);
+    margin: auto auto -130px auto;
+    text-align: center;
+    padding: 10px 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+#email-box > * {
+    margin: 20px 0;
+}
+
+#early-access {
+    font-size: 2.25em;
+}
+
+#email-input {
+    font-family: inherit;
+    padding: 13px 30px;
+    color: hsl(0, 0%, 0.5%);
+    margin-right: 20px;
+    width: 60%;
+    border-radius: 30px;
+    border: none;
+}
+
+#email-submit {
+    width: 30%;
+}
+
+footer {
+    padding: 200px 70px 70px 70px;
+    background-color: hsl(216, 53%, 9%);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+#footer-info {
+    justify-content: space-between;
+}
+
+#logo-footer {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+#logo-footer .logo {
+    padding-left: 0;
+}
+
+#location {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+}
+
+#location-logo {
+    margin-right: 20px;
+    padding: 5px 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column > * {
+    margin-bottom: 10px;
+}
+
+#contact > * {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-icon {
+    width: 1em;
+    margin-right: 10px;
+}
+
+#socmed a {
+    color: white;
+    align-self: start;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(176, 68%, 64%);
+}
+
+@media (max-width: 420px) {
+    nav {
+        padding: 20px;
+    }
+
+    .nav-item {
+        padding: 0 10px;
+    }
+
+    .logo {
+        padding: 0;
+        max-width: 100px;
+    }
+
+    #intro-img {
+        max-width: 90%;
+        height: 200px;
+    }
+
+    #hero h1 {
+        font-size: 1.75em;
+        width: 90%;
+    }
+
+    #hero {
+        background-image: url(./images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        padding-bottom: 0;
+    }
+
+    #hero p {
+        width: 90%;
+    }
+
+    #features {
+        padding-top: 100px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    #productive-img {
+        width: 90%;
+    }
+
+    #productive-text h2 {
+        font-size: 1.5em;
+    }
+
+    #email-box {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #early-access {
+        font-size: 1.5em;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #email-input {
+        margin-right: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #form > * {
+        width: 90%;
+    }
+
+    footer {
+        padding: 200px 30px 10px 30px;
+    }
+
+    #logo-footer {
+        margin-bottom: 30px;
+    }
+
+    #footer-info {
+        flex-direction: column;
+    }
+
+    #footer-info > * {
+        margin-bottom: 30px;
+    }
+
+    #location {
+        width: 100%;
+    }
+    
+    #location,
+    #contact .row {
+        flex-wrap: nowrap;
+    }
+}

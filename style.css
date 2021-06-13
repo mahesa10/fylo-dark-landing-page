@@ -64,6 +64,10 @@ nav, #hero {
     font-size: 2.75em;
 }
 
+#intro-img {
+    width: 55%;
+}
+
 #hero p {
     width: 450px;
 }
@@ -135,6 +139,10 @@ button:hover {
 
 #productive-text > * {
     margin: 20px 0;
+}
+
+#productive-img {
+    width: 50%;
 }
 
 #fylo-works {
@@ -288,7 +296,7 @@ footer {
     color: hsl(176, 68%, 64%);
 }
 
-@media (max-width: 420px) {
+@media (max-width: 800px) {
     nav {
         padding: 20px;
     }
@@ -303,8 +311,7 @@ footer {
     }
 
     #intro-img {
-        max-width: 90%;
-        height: 200px;
+        width: 60%;
     }
 
     #hero h1 {
@@ -333,7 +340,7 @@ footer {
     }
 
     #productive-img {
-        width: 90%;
+        width: 350px;
     }
 
     #productive-text h2 {
